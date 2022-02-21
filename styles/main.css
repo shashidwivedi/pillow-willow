@@ -30,6 +30,14 @@ body {
   padding-left: var(--space-lg);
 }
 
+.nav a:hover {
+  color: var(--color-light);
+}
+
+.nav .user {
+  display: none;
+}
+
 .nav .avatar {
   background-color: var(--color-light);
   color: var(--color-primary);
@@ -53,6 +61,11 @@ body {
   height: var(--space-xl);
 }
 
+.hero .cta a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
 /* Showcase */
 .showcase {
   margin: var(--space-xl);
@@ -71,4 +84,33 @@ body {
   background-color: var(--color-dark);
   padding: var(--space-xl);
   margin: 0;
+}
+
+/* Pages */
+
+/* Product Listing Page */
+.products {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.products .products-filter {
+  padding: var(--space-xl);
+}
+
+.products-filter h4 {
+  margin: 0 0 var(--space-md);
+}
+
+.filter-container {
+  margin: 0 0 var(--space-sm);
+}
+
+.filter-container .filter-heading {
+  margin: 0 0 var(--space-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.filter-container .filter {
+  margin: 0 0 4px;
 }
