@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -178,4 +182,49 @@ body {
   position: absolute;
   right: var(--space-lg);
   background-color: var(--color-secondary);
+}
+
+/* Login Page */
+.login,
+.signup {
+  margin: var(--space-lg) auto;
+}
+
+.login-heading,
+.signup-heading {
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-lg);
+}
+
+.login-form,
+.signup-form {
+  max-width: 24rem;
+  margin: 0 auto;
+}
+
+.login-form .textbox,
+.signup-form .textbox {
+  margin-bottom: var(--space-md);
+  font-weight: var(--font-weight-semibold);
+}
+
+.login-form .btn,
+.signup-form .btn {
+  margin: var(--space-xs);
+  width: 100%;
+  height: var(--space-xl);
+  background-color: var(--color-dark);
+}
+
+.login-subtext,
+.signup-subtext {
+  margin: var(--space-xl) auto;
+}
+
+.logout {
+  min-height: 28rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary);
 }
