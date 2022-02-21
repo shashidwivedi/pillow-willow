@@ -150,3 +150,32 @@ body {
   height: var(--space-xl);
   margin-top: var(--space-md);
 }
+
+/* Wishlist Page */
+.wishlist {
+  padding: 0 var(--space-xl);
+}
+
+.wishlist-heading {
+  margin-top: var(--space-lg);
+  margin-bottom: 0;
+}
+
+.wishlist-item {
+  margin-right: var(--space-lg);
+}
+
+.wishlist .fa-heart {
+  color: var(--color-primary);
+}
+
+.wishlist .card-action {
+  position: relative;
+  width: 100%;
+}
+
+.wishlist .add-to-cart-cta {
+  position: absolute;
+  right: var(--space-lg);
+  background-color: var(--color-secondary);
+}
