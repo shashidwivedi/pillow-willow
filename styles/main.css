@@ -108,6 +108,7 @@ body {
 
 .filter-container .filter-heading {
   margin: 0 0 var(--space-xs);
+  font-weight: var(--font-weight-semibold);
 }
 
 .filter-container .filter {
