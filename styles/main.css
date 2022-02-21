@@ -1,0 +1,74 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 var(--space-xl);
+  background-color: var(--color-primary);
+}
+
+.header a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.nav {
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: var(--font-size-sm);
+}
+
+.nav a {
+  padding-left: var(--space-lg);
+}
+
+.nav .avatar {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--color-light);
+}
+
+.hero .grid-col {
+  padding: var(--space-xl);
+}
+
+.hero .heading-1 {
+  color: var(--color-dark);
+}
+
+.hero .cta {
+  background-color: var(--color-secondary);
+  height: var(--space-xl);
+}
+
+/* Showcase */
+.showcase {
+  margin: var(--space-xl);
+}
+
+.showcase .card {
+  width: calc(33.333333% - var(--space-xl) * 4 / 3);
+}
+
+.showcase .card:not(:last-child) {
+  margin-right: var(--space-xl);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-dark);
+  padding: var(--space-xl);
+  margin: 0;
+}
