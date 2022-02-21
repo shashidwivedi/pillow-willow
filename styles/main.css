@@ -221,3 +221,10 @@ body {
 .signup-subtext {
   margin: var(--space-xl) auto;
 }
+
+.logout {
+  min-height: 28rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary);
+}
