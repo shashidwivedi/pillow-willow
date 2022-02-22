@@ -1,7 +1,7 @@
 # Pillow Willow
 An e-commerce web app for buying anything you will ever need in your home
 
-[See Here](https://pillow-willow.netlify.app/)
+Live Website: [https://pillow-willow.netlify.app/](https://pillow-willow.netlify.app/)]
 
 Screens:
 
