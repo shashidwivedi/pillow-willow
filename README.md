@@ -5,7 +5,7 @@ Live Website: [https://pillow-willow.netlify.app/](https://pillow-willow.netlify
 
 Screens:
 
-A homepage
+Homepage
 - Header with branding and nav links
 - Hero has a Shop Now CTA
 - Showcase with product teasers
